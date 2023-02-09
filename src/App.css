@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+form{
+    /* background-color: aliceblue; */
+    /* width: 800px; */
+    margin: 0 auto;
+    gap: 10px;
+    color: #999;
+}
+form div{
+    display: flex;
+    /* gap: 10px; */
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px 35px;
+    align-items: center;
+}
+form div label{
+    flex: 1;
+}
+form div input{
+    /* padding: 1em; */
+    flex: 3;
+    padding: 10px;
+    font-size: 1em;
+    /* border: 0; */
+    /* border-color: #999; */
+    border: 1px solid #999;
+    border-radius: 10px;
+    outline: 0;
+}
+.result{
+    margin: 0 auto;
+    /* background-color: red; */
+    color: rgb(90, 89, 89);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.result h1{
+    margin: 0 auto;
+}
